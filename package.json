@@ -1,0 +1,34 @@
+{
+  "name": "stream_server",
+  "version": "1.0.0",
+  "description": "Express Server for receiving H264 Video Stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "0",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nate-trojian/stream_server.git"
+  },
+  "keywords": [
+    "express",
+    "expressjs",
+    "h264",
+    "video",
+    "streaming",
+    "socketio"
+  ],
+  "author": "nate-trojian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nate-trojian/stream_server/issues"
+  },
+  "homepage": "https://github.com/nate-trojian/stream_server#readme",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "utf-8-validate": "^5.0.2"
+  }
+}
